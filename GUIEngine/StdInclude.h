@@ -1,0 +1,13 @@
+#pragma once
+#include <iostream>
+#include <string>
+#include <vector>
+#include <list>
+#include <windows.h>
+#include <algorithm>
+#include <map>
+#include <memory>
+#include "stdlib.h"
+#include "stdio.h"
+#include "time.h"
+#include <tchar.h>
