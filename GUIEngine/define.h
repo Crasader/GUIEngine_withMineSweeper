@@ -56,9 +56,10 @@ namespace GUITYPE{
 
 	enum class ControlEventType
 	{
-		Button = 1,
-		Image,
-		Editor
+		OnLMouseClick,
+		OnRMouseClick,
+		OnMouseOver,
+		OnKeyBroadDown
 	};
 
 }

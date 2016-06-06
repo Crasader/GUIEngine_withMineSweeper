@@ -185,7 +185,7 @@ cMineSweeperGUI::cMineSweeperGUI(HINSTANCE hInstance)
 	int w = g_GUIMgptr->GUIGetClientSize().x;
 	int h = g_GUIMgptr->GUIGetClientSize().y;
 	g_GUIMgptr->GUICreatePicture(psbk, w,h,
-		GUITYPE::ControlEventType::Image,GAMEBACKGRAOUND_IMG_CONTROL, _T("background.bmp"));
+	GAMEBACKGRAOUND_IMG_CONTROL, _T("background.bmp"));
 
 
 	//Ã¸»s¤HÁy
@@ -194,7 +194,7 @@ cMineSweeperGUI::cMineSweeperGUI(HINSTANCE hInstance)
 	psface.y = GAMEFACE_MARGIN_TOP;
 
 	GameFace* pfacefunc = new GameFace();
-	g_GUIMgptr->GUICreateButton(psface, 24, 24, GUITYPE::ControlEventType::Button, GAMEFACE_BUT_CONTROLID, _T("SmilefaceUnclick.bmp"), pfacefunc);
+	g_GUIMgptr->GUICreateButton(psface, 24, 24, GAMEFACE_BUT_CONTROLID, _T("SmilefaceUnclick.bmp"), pfacefunc);
 
 
 	//Ã¸»s´Ñ½L
@@ -208,7 +208,7 @@ cMineSweeperGUI::cMineSweeperGUI(HINSTANCE hInstance)
 			tagPOINT ps = { 0 };
 			ps.x = GAMEWINDOW_MARGIN_LEFT+j*16;
 			ps.y = GAMEWINDOW_MARGIN_TOP+i*16;
-			g_GUIMgptr->GUICreateButton(ps, 16, 16, ControlEventType::Button,a, _T("space.bmp"),phide);
+			g_GUIMgptr->GUICreateButton(ps, 16, 16,a, _T("space.bmp"),phide);
 	
 			
 		}

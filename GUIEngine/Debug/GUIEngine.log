@@ -1,3 +1,19 @@
-﻿  main.cpp
-c:\users\user\desktop\guiengine_withminesweeper\guiengine\minesweeperlogic.h(65): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
-  GUIEngine.vcxproj -> C:\Users\USER\Desktop\GUIEngine_withMineSweeper\Debug\GUIEngine.exe
+﻿已經開始建置於 2016/6/6 上午 11:32:24。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\aa\Desktop\GUIEngine_withMineSweeper\GUIEngine\GUIEngine.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cPicture.cpp
+         cPicture.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aa\Desktop\GUIEngine_withMineSweeper\Debug\GUIEngine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\aa\Desktop\GUIEngine_withMineSweeper\Debug\GUIEngine.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\aa\Desktop\GUIEngine_withMineSweeper\Debug\GUIEngine.lib" /MACHINE:X86 Debug\GUIEngine.res
+         Debug\cButton.obj
+         Debug\cCallbackFunctorBasic.obj
+         Debug\ControlBasic.obj
+         Debug\cPicture.obj
+         Debug\GUIEngine.obj
+         Debug\main.obj
+         GUIEngine.vcxproj -> C:\Users\aa\Desktop\GUIEngine_withMineSweeper\Debug\GUIEngine.exe
+     1>專案 "C:\Users\aa\Desktop\GUIEngine_withMineSweeper\GUIEngine\GUIEngine.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.20

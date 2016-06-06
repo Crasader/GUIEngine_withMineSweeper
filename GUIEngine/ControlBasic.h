@@ -26,20 +26,23 @@ class ControlBasic
 {
 
 public:
+	//建構子
 	ControlBasic(tagPOINT Pos,
 		int width,
 		int Height,
-		ControlEventType eveType,int ControlID);
+		int ControlID);
+	//解構子
 	~ControlBasic();
 
-	virtual	void SetPosition(tagPOINT t){ this->m_ControlPosition = t; };
-	virtual	tagPOINT GetPosition(){ return this->m_ControlPosition; };
-	virtual	void SetWidth(int n){ this->m_nWidth = n; };
-	virtual	int GetWidth(){ return this->m_nWidth; };
-	virtual	void SetHeight(int n){ m_nHeight = n; };
-	virtual	int GetHeight(){ return this->m_nHeight; };
-	virtual void SetControlID(int n){ this->m_ControlID = n; };
-	virtual int GetControlID(){ return this->m_ControlID; };
+	virtual	void SetPosition(tagPOINT t);
+	virtual	tagPOINT GetPosition();
+	virtual	void SetWidth(int n);
+	virtual	int GetWidth();
+	virtual	void SetHeight(int n);
+	virtual	int GetHeight();
+	virtual void SetControlID(int n);
+	virtual int GetControlID();
+
 
 protected:
 
@@ -48,41 +51,6 @@ protected:
 	int		m_nWidth;
 	int		m_nHeight;
 	int		m_ControlID;
-
 private:
-
-	ControlEventType m_EveType;
+	std::vector<ControlEventType> m_EventTypes;
 };
-
-
-
-
-//建構子
-ControlBasic::ControlBasic(
-	tagPOINT Pos,
-	int width,
-	int Height,
-	ControlEventType eveType,
-	int ControlID
-	):m_ControlPosition(Pos),
-	m_nHeight(Height),
-	m_nWidth(width),
-	m_EveType(eveType),
-	m_ControlID(ControlID)
-{
-
-
-
-};
-
-
-
-//解構子
-ControlBasic::~ControlBasic()
-{
-
-
-
-};
-
-

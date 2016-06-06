@@ -7,9 +7,8 @@
 class cCallBackFunctorBasic
 {
 public:
-	cCallBackFunctorBasic()
-	{
-	};
+	cCallBackFunctorBasic();
+	~cCallBackFunctorBasic();
 	virtual	void operator()() = 0;
 private:
 	int x;
